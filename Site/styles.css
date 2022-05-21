@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+}
+.outline {
+    width: 200px;
+    border: 1px solid;
+    border-color: whitesmoke;
+    padding: 20px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+
+
+body {
+    color: beige;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Futura Bk BT', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:link {
+    color: violet;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: crimson;
+}
+
+
+
+.RBox {
+
+    margin: 15px;
+    float: right;
+    padding: 15px;
+}
+
+p.RBox {
+    border: 1px solid;
+}
+
+section.RBox {
+    background-color:cornsilk;
+    color: black;
+}
+
+blockquote.RBox {
+    background-color: ghostwhite;
+    color: black;
+}
+
+
+.List :nth-child(odd) {
+    background-color: darkviolet
+}
+
+#boxtest {
+    margin: 20px;
+    border: 1px solid;
+    padding: 20px;
+    border-color: antiquewhite;
+    width: 236px;
+}
+
+@media (min-width: 1200px) {
+    .LFloat {
+        float: left;
+        position: fixed;
+        margin-left: 16px;
+    }
+    .RBox {
+        width: 61.8%;
+    }
+}
+
+@media  (max-width: 1199px) {
+    .LFloat {
+        float: none;
+    }
+    .RBox {
+        width: 100%;
+    }
+}
+
+
+.Banner {
+    width:100%;
+    height: auto;
+}
